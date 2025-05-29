@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "MONGODB_URI": "@mongodb_uri",
+    "SALESFORCE_CLIENT_ID": "@salesforce_client_id",
+    "SALESFORCE_CLIENT_SECRET": "@salesforce_client_secret",
+    "SALESFORCE_USERNAME": "@salesforce_username",
+    "SALESFORCE_PASSWORD": "@salesforce_password",
+    "GA_MEASUREMENT_ID": "@ga_measurement_id"
+  }
+} 
